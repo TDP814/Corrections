@@ -17,7 +17,7 @@ public class Mountain {
 		if (peak==-1) {
 			return false;
 		}
-		if (thi.isIncreasing(array,peak)&& this.isDecreasing(array,peak)) {
+		if (this.isIncreasing(array,peak)&& this.isDecreasing(array,peak)) {
 			return true;
 		}
 		return false;
